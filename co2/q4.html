@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog - Stories That Matter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement">
+        ✨ Fresh ideas, useful guides and stories — updated weekly!
+    </div>
+
+    <header>
+        <div class="navbar">
+            <a href="#home" class="logo">My<span>Blog.</span></a>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+
+            <nav id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#articles">Articles</a>
+                <a href="#about">About</a>
+                <a href="#newsletter">Subscribe</a>
+            </nav>
+
+            <a href="#articles" class="search-link">Search 🔍</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <span class="tag">WELCOME TO MYBLOG</span>
+                <h1>Stories that make you <span>think bigger.</span></h1>
+                <p>
+                    Explore technology, travel, healthy living and practical
+                    tips to make your everyday life better.
+                </p>
+                <a href="#articles" class="btn">Explore Articles ↓</a>
+                <a href="#about" class="btn secondary">About Us</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1455390582262-044cceed277a?w=900"
+                    alt="Notebook and coffee on a desk">
+            </div>
+        </section>
+
+        <section class="articles section" id="articles">
+            <div class="section-heading">
+                <h2>Explore Our Latest Stories</h2>
+                <p>Find something interesting to read today.</p>
+            </div>
+
+            <div class="search-box">
+                <input type="search" id="searchInput"
+                       placeholder="Search articles...">
+                <button id="searchButton" class="btn">Search</button>
+            </div>
+
+            <div class="categories">
+                <button class="category-btn active" data-category="All">
+                    All Stories
+                </button>
+                <button class="category-btn" data-category="Technology">
+                    Technology
+                </button>
+                <button class="category-btn" data-category="Travel">
+                    Travel
+                </button>
+                <button class="category-btn" data-category="Lifestyle">
+                    Lifestyle
+                </button>
+            </div>
+
+            <div class="blog-grid" id="blogGrid">
+
+                <article class="blog-card" data-category="Technology">
+                    <img
+                        src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=700"
+                        alt="Technology circuit board">
+                    <div class="card-content">
+                        <span class="category">Technology</span>
+                        <p class="meta">October 18, 2026 · 5 min read</p>
+                        <h3>Simple Ways to Use AI Every Day</h3>
+                        <p>Discover how modern technology can help you learn
+                           and work smarter.</p>
+                        <button class="read-btn"
+                                data-title="Simple Ways to Use AI Every Day"
+                                data-description="AI tools can help you organise tasks, understand difficult topics and brainstorm ideas. Always review their results carefully and protect your private information.">
+                            Read Article →
+                        </button>
+                        <button class="save-btn">♡ Save</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="Travel">
+                    <img
+                        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700"
+                        alt="Beautiful mountain landscape">
+                    <div class="card-content">
+                        <span class="category">Travel</span>
+                        <p class="meta">October 15, 2026 · 4 min read</p>
+                        <h3>How to Plan a Weekend Trip</h3>
+                        <p>Discover beautiful places and plan your next
+                           unforgettable adventure.</p>
+                        <button class="read-btn"
+                                data-title="How to Plan a Weekend Trip"
+                                data-description="Choose a destination that fits your budget, plan your transport, pack only what you need and leave enough time to relax and enjoy your journey.">
+                            Read Article →
+                        </button>
+                        <button class="save-btn">♡ Save</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="Lifestyle">
+                    <img
+                        src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=700"
+                        alt="Fresh healthy food">
+                    <div class="card-content">
+                        <span class="category">Lifestyle</span>
+                        <p class="meta">October 12, 2026 · 3 min read</p>
+                        <h3>Small Habits for Healthy Living</h3>
+                        <p>Learn simple daily habits to support a healthier
+                           and happier lifestyle.</p>
+                        <button class="read-btn"
+                                data-title="Small Habits for Healthy Living"
+                                data-description="Build a realistic routine with regular movement, balanced meals, enough sleep and time to relax. Small consistent habits can make everyday life better.">
+                            Read Article →
+                        </button>
+                        <button class="save-btn">♡ Save</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <p id="noResults" class="no-results" hidden>
+                No articles found. Try another search or category.
+            </p>
+
+            <button id="showAll" class="btn secondary show-all">
+                Show All Articles
+            </button>
+        </section>
+
+        <section class="about section" id="about">
+            <h2>About MyBlog</h2>
+            <p>
+                MyBlog shares useful stories about technology, travel and
+                lifestyle. Our goal is to make learning enjoyable through
+                clear and practical articles.
+            </p>
+        </section>
+
+        <section class="newsletter section" id="newsletter">
+            <div>
+                <h2>Good Stories, Delivered to You</h2>
+                <p>Subscribe to receive the latest stories and ideas.</p>
+            </div>
+
+            <form id="subscribeForm">
+                <input type="email" id="emailInput"
+                       placeholder="Enter your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">My<span>Blog.</span></a>
+        <p>© 2026 MyBlog. All Rights Reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <div class="modal" id="articleModal" hidden>
+        <div class="modal-content">
+            <button id="closeModal" class="close-btn">✕</button>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <div id="message" class="message" role="status"></div>
+
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+        const searchInput = document.getElementById("searchInput");
+        const categoryButtons = document.querySelectorAll(".category-btn");
+        const cards = document.querySelectorAll(".blog-card");
+        const noResults = document.getElementById("noResults");
+        const message = document.getElementById("message");
+        let selectedCategory = "All";
+        let messageTimer;
+
+        function showMessage(text) {
+            message.textContent = text;
+            message.classList.add("show");
+            clearTimeout(messageTimer);
+            messageTimer = setTimeout(() => {
+                message.classList.remove("show");
+            }, 2500);
+        }
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+        });
+
+        navLinks.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+            });
+        });
+
+        function filterArticles() {
+            const query = searchInput.value.toLowerCase().trim();
+            let count = 0;
+
+            cards.forEach(card => {
+                const matchesCategory =
+                    selectedCategory === "All" ||
+                    card.dataset.category === selectedCategory;
+
+                const matchesSearch =
+                    card.innerText.toLowerCase().includes(query);
+
+                const visible = matchesCategory && matchesSearch;
+                card.hidden = !visible;
+
+                if (visible) count++;
+            });
+
+            noResults.hidden = count > 0;
+        }
+
+        document.getElementById("searchButton")
+            .addEventListener("click", filterArticles);
+
+        searchInput.addEventListener("input", filterArticles);
+
+        searchInput.addEventListener("keydown", event => {
+            if (event.key === "Enter") filterArticles();
+        });
+
+        categoryButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                selectedCategory = button.dataset.category;
+
+                categoryButtons.forEach(item => {
+                    item.classList.toggle("active", item === button);
+                });
+
+                filterArticles();
+            });
+        });
+
+        document.querySelectorAll(".read-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                document.getElementById("modalTitle").textContent =
+                    button.dataset.title;
+
+                document.getElementById("modalDescription").textContent =
+                    button.dataset.description;
+
+                document.getElementById("articleModal").hidden = false;
+            });
+        });
+
+        document.getElementById("closeModal")
+            .addEventListener("click", () => {
+                document.getElementById("articleModal").hidden = true;
+            });
+
+        document.getElementById("articleModal")
+            .addEventListener("click", event => {
+                if (event.target.id === "articleModal") {
+                    event.currentTarget.hidden = true;
+                }
+            });
+
+        document.querySelectorAll(".save-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                const saved = button.classList.toggle("saved");
+                button.textContent = saved ? "♥ Saved" : "♡ Save";
+                showMessage(saved
+                    ? "Article saved!"
+                    : "Article removed from saved list.");
+            });
+        });
+
+        document.getElementById("showAll")
+            .addEventListener("click", () => {
+                selectedCategory = "All";
+                searchInput.value = "";
+
+                categoryButtons.forEach(button => {
+                    button.classList.toggle(
+                        "active", button.dataset.category === "All"
+                    );
+                });
+
+                filterArticles();
+                showMessage("Showing all articles.");
+            });
+
+        document.getElementById("subscribeForm")
+            .addEventListener("submit", event => {
+                event.preventDefault();
+
+                const email = document.getElementById("emailInput").value;
+                showMessage("Thank you for subscribing, " + email + "!");
+                event.target.reset();
+            });
+    </script>
+</body>
+</html>
