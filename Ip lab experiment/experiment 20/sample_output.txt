@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 20: RentRide
+
+Page title: RentRide
+Search results: demo cards for RentRide
+Action: select an item and submit the form
+Expected message: Saved demo record: IP20-XXXXXX
+
+The exact generated reference code varies each run.
