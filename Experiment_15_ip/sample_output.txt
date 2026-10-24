@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 15: EasyToll
+
+Page title: EasyToll
+Search results: demo cards for EasyToll
+Action: select an item and submit the form
+Expected message: Saved demo record: IP15-XXXXXX
+
+The exact generated reference code varies each run.
