@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 18: AgriMart
+
+Page title: AgriMart
+Search results: demo cards for AgriMart
+Action: select an item and submit the form
+Expected message: Saved demo record: IP18-XXXXXX
+
+The exact generated reference code varies each run.
