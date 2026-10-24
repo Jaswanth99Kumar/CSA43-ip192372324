@@ -1,4 +1,4 @@
-CakeBloom — Experiment 6
+GlowStudio — Experiment 7
 
 Open index.html in a browser. Test the navigation, cards, quick action buttons and form.
 
