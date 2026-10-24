@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 19: VetCure
+
+Page title: VetCure
+Search results: demo cards for VetCure
+Action: select an item and submit the form
+Expected message: Saved demo record: IP19-XXXXXX
+
+The exact generated reference code varies each run.
