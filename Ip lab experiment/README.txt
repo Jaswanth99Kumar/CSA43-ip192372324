@@ -1,4 +1,4 @@
-TechSavvy — Experiment 9
+StyleHub — Experiment 10
 
 Open index.html in a browser. Test the navigation, cards, quick action buttons and form.
 
