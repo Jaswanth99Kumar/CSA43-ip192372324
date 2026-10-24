@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 16: ComplainEase
+
+Page title: ComplainEase
+Search results: demo cards for ComplainEase
+Action: select an item and submit the form
+Expected message: Saved demo record: IP16-XXXXXX
+
+The exact generated reference code varies each run.
