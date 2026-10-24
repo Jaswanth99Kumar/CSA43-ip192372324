@@ -1,0 +1,8 @@
+SAMPLE OUTPUT — EXPERIMENT 17: VoteOnline
+
+Page title: VoteOnline
+Search results: demo cards for VoteOnline
+Action: select an item and submit the form
+Expected message: Saved demo record: IP17-XXXXXX
+
+The exact generated reference code varies each run.
