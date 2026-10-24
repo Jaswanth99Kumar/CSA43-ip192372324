@@ -1,13 +1,5 @@
-SkyJourney — Experiment 5
+CakeBloom — Experiment 6
 
-Files:
-- index.html: website structure
-- style.css: responsive styling
-- script.js: modal buttons and form submission behavior
+Open index.html in a browser. Test the navigation, cards, quick action buttons and form.
 
-How to run:
-1. Open index.html in Chrome, Safari, or Firefox.
-2. Click the navigation links, cards, Login/Register/Status buttons.
-3. Submit the demo form to see the success message.
-
-Note: This is a front-end demonstration only. It does not connect to a database or process real payments/bookings.
+This is a front-end demonstration only; it does not connect to a database or process real payments/orders.
