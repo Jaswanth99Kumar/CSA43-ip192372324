@@ -1,4 +1,4 @@
-GlowStudio — Experiment 7
+MedCare Hospital — Experiment 8
 
 Open index.html in a browser. Test the navigation, cards, quick action buttons and form.
 
